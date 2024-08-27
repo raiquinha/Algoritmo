@@ -1,10 +1,33 @@
-body{
+body {
+    background-color: #000000;
     color: white;
-    background: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
 }
-header {
-    border-bottom: solid 2px rgb(42, 122, 228);
-    padding: 20px;
-    font-size: 32px;
-    color: rgb(42, 122, 288)
-}u7
+
+button {
+    background-color: #eb0feb;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+}
